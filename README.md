@@ -32,6 +32,8 @@ Notes:
  - AIX 7.3 includes Python 3.9 but you can install Python on AIX 7.2 from the AIX open source toolbox.
  - nextract_plus draws data from the HMC so it needs an HMC user account to log in.
  - It is assumed you are using HMC version 9 or 10 on mostly POWER8, POWER9, and Power10 servers.
+
+See the IBM article on nextract here: https://supportcontent.ibm.com/support/pages/nextract-plus-hmc-rest-api-performance-statistics
  - To make it obvious in a list of user accounts on the HMC, I use an account called nextractplus.
  - nextract_plus.py (in the diagram) also includes the nextract_energy.py and nextract_ssp.py programs.
  - All the programs can share a single JSON format configuration file.  I use one config per HMC to keep things simple.
