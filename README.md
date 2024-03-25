@@ -1,5 +1,9 @@
-nextract pulls statistics from the Power Systems HMC by using the HMC Performance and Capacity Monitoring REST API in to four useful formats or graphs. 
-This is called "nextract plus" as it extracts performance statistics, energy statistics (Temperature and Watts) and Shared Storage Pools (SSP) statistics.
+nextract plus pulls statistics from the Power Systems HMC by using the HMC Performance and Capacity Monitoring REST API in to four useful formats or graphs. 
+nextract plus is a few Python programs that extract 
+1) Performance statistics at server level, VIOS level and LPAR (virtual machine) level,
+2) Energy statistics (Temperature and electical Watts) at a server level and
+3) Shared Storage Pools (SSP) statistics from the VIOS and include server level and LPAR (virtual machines) stats.
+This data is indepentant of the operating system, so includes AIX, VIOS, IBM i and Linux running on the Power server range.
 
 This nextract tool is not an IBM product, so there is no IBM support. 
 It is the personal project of the author.
