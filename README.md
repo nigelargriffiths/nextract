@@ -41,4 +41,4 @@ Notes:
  - All the programs can share a single JSON format configuration file.  I use one config per HMC to keep things simple.
  - Depending on the config the data is saved to a .csv file, a .html webpage file or directly into InfluxDB.
 
-See the IBM article on nextract here: https://supportcontent.ibm.com/support/pages/nextract-plus-hmc-rest-api-performance-statistics
+See the IBM article on nextract here: https://www.ibm.com/support/pages/nextract-plus-hmc-rest-api-performance-statistics
